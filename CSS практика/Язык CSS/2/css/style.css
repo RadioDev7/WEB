@@ -1,0 +1,32 @@
+* {
+    background-color: silver;
+    color: rgb(234, 0, 255);
+}
+
+p {
+    color: red;
+}
+
+.div {
+    color: black;
+}
+
+.div[title="url"] {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.div[title="url2"] {
+    color: rgb(0, 0, 94);
+    font-size: 20px;
+}
+
+.v2 {
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+#h4_1 {
+    color: rgb(3, 87, 3);
+    font-size: 40px;
+}

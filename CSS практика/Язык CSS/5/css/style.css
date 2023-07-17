@@ -1,0 +1,45 @@
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border: 1em black groove;
+    border-radius: 150px;
+}
+
+#i1 {
+    color: rgb(0, 0, 0);
+    border: 1em green solid; /*рамка*/
+}
+
+#i2 {
+    color: rgb(0, 0, 0);
+    border: 1em green dotted; /*рамка*/
+}
+
+#i3 {
+    color: rgb(0, 0, 0);
+    border: 1em green dashed; /*рамка*/
+}
+
+#i4 {
+    color: rgb(0, 0, 0);
+    border: 1em green double; /*рамка*/
+}
+
+#i5 {
+    color: rgb(0, 0, 0);
+    border: 1em green groove; /*рамка*/
+}
+
+#i6 {
+    color: rgb(0, 0, 0);
+    border: 1em green groove; /*рамка*/
+    border-radius: 10px; /* скругление радиуса рамка*/
+}
+
+#i7 {
+    border: 1em green groove; /*рамка*/
+    border-radius: 10px 20px 20px 10px; /* скругление радиуса рамка*/
+    border-top-color: black ; /* цвет верхней части рамки*/
+}

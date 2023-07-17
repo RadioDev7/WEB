@@ -1,0 +1,323 @@
+/*КОММЕНТАРИЙ*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,400&display=swap");
+/*Подключение шрифта*/
+body
+
+/*Селектор*/
+  {
+  background-color: rgb(255, 255, 187);
+  /*Декларационный блок (свйоства + значение)*/
+  font-size: 20px;
+  /*Размер шрифта*/
+  font-family: "Arial", Tahoma, Geneva, Verdana, sans-serif;
+  /*Назначение шрифта тексту + доп шрифты если браузер не найдёт*/
+}
+
+@media (max-width: 700px)
+/*Адаптивность*/
+  {
+  body {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* * {
+  padding: 0;
+  margin: auto;
+} */
+/*Глобальное изменение всех тегов*/
+.block1 {
+  font-weight: 500;
+  /*Жирность шрифта*/
+}
+
+.block2 {
+  font-weight: bold;
+  /*Жирность шрифта*/
+  font-family: "Source Code Pro";
+  /*Назначение шрифта тексту*/
+  font: bold 16px "Source Code Pro";
+  /*Полная настройка шрифта*/
+}
+
+.block3 {
+  font: normal 23px "Arial";
+  /*Полная настройка шрифта*/
+}
+
+.block4 {
+  font: normal 20px "Source Code Pro";
+  /*Полная настройка шрифта*/
+}
+
+.block4 p {
+  color: brown;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  /*Отступы от букв*/
+  word-spacing: 20px;
+  /*Отступы от слов*/
+}
+
+.block11 p {
+  color: blue;
+}
+
+.block12 p {
+  color: red;
+  font: normal 20px "Source Code Pro";
+  /*Полная настройка шрифта*/
+}
+
+.block12 img {
+  width: 150px;
+  /*Изменение размера картинки по ширине*/
+  border-radius: 50%;
+  /*Скругление изображения*/
+  box-shadow: 4px 4px 14px rgb(32, 32, 32);
+  /*Тень изображения*/
+}
+
+.block13>div
+
+/*Использование всех блоков*/
+  {
+  float: left;
+  /*Растягивание блоков на 1 сторону*/
+  background: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+  /*Оптимизация вёрстки*/
+}
+
+.block14>div
+
+/*Использование всех блоков*/
+  {
+  float: left;
+  background: rgb(255, 255, 255);
+  height: 200px;
+  width: 25%;
+  border: 4px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  /*Оптимизация вёрстки*/
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.block14 p {
+  text-align: center;
+  /* Выравнивание текста по центру */
+  margin: auto;
+  /* Выравнивание по центру */
+  display: block;
+  /* элементы списка отображаются один под другим на странице */
+  margin-left: auto;
+  /* Выравнивание по центру */
+  margin-right: auto;
+  /* Выравнивание по центру */
+}
+
+.block15 a {
+  color: rgb(133, 12, 12);
+  text-decoration: none;
+}
+
+/*Псевдо селектор*/
+.block15 a:hover {
+  text-decoration: underline;
+  /*Декорация текста - подчёркивание*/
+}
+
+.block15 a:active {
+  color: blue;
+}
+
+.block15 a:visited {
+  color: rgb(0, 155, 21);
+}
+
+/*Псевдо селектор*/
+
+.block21>div {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 75%;
+  /*Ширина блока*/
+  margin: auto;
+  /*Расположение блока*/
+  margin-bottom: 60px;
+  /*Пустое пространство для блока*/
+}
+
+.block22>div {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 50%;
+  /*Ширина блока*/
+  margin: auto;
+  /*Расположение блока*/
+  margin-bottom: 60px;
+  /*Пустое пространство для блока*/
+}
+
+.block22 ol {
+  padding: 0 30px;
+}
+
+.block22 li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(82, 82, 82);
+  background-color: rgb(201, 201, 201);
+}
+
+.block23>table {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 75%;
+  /*Ширина блока*/
+  margin: auto;
+  /*Расположение блока*/
+  margin-bottom: 60px;
+  /*Пустое пространство для блока*/
+  width: 50em;
+}
+
+.block23 th {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.block23 td {
+  padding-bottom: 5px;
+  background-color: rgb(201, 201, 201);
+  text-align: center;
+  border-bottom: 5px solid rgb(82, 82, 82);
+}
+
+.block31 {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 75%;
+  /*Ширина блока*/
+  margin: auto;
+  /*Расположение блока*/
+  margin-bottom: 60px;
+  /*Пустое пространство для блока*/
+  background-color: antiquewhite;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row>.form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row>.form-group:last-child {
+  margin-right: 0;
+}
+
+.bg_color1 {
+  background-color: aquamarine;
+}
+
+.bg_color2 {
+  background-color: darkorange;
+}
+
+.bg_color3 {
+  background-color: cornflowerblue;
+}
+
+.bg_color4 {
+  background-color: darkgray;
+}
+
+.block21 h4 {
+  text-align: center;
+}
+
+.img_block {
+  width: 200px;
+  /*Изменение размера картинки по ширине*/
+  border-radius: 50%;
+  /*Скругление изображения*/
+  box-shadow: 4px 4px 14px rgb(32, 32, 32);
+  /*Тень изображения*/
+}
+
+.img_block1 {
+  width: 200px;
+  /*Изменение размера картинки по ширине*/
+}
+
+.img_block2 {
+  width: 100px;
+  /*Изменение размера картинки по ширине*/
+  border-radius: 50%;
+  /*Скругление изображения*/
+  box-shadow: 4px 4px 14px rgb(32, 32, 32);
+  /*Тень изображения*/
+}
+
+.socialbox {
+  background-color: rgb(187, 252, 135);
+  /*Цвет фона*/
+  max-width: 75%;
+  /*Ширина блока*/
+  margin: auto;
+  /*Расположение блока*/
+  margin-bottom: 200px;
+  /*Пустое пространство для блока*/
+  padding: 15px 20px;
+  /*Размеры границ блока*/
+  border: 5px solid rgb(0, 0, 0);
+  /*Заливка границ*/
+  border-top-width: 20px;
+  /*Заливка границ (размер с верху)*/
+}
+
+#h3_1 {
+  font: bold 25px "Arial";
+  /*Полная настройка шрифта*/
+}
+
+.h3 {
+  font: bold 25px "Arial";
+  /*Полная настройка шрифта*/
+}

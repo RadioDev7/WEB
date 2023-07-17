@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="image/css-xxl.png" type="image/x-icon" />
+  <title>Практика CSS</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <!--Подключение основного стиля страницы-->
+  <style>
+    .header {
+      color: rgb(0, 0, 0);
+      font-style: initial;
+      font-family: Arial;
+      background-image: linear-gradient(to left,
+          rgb(255, 106, 0),
+          rgb(255, 170, 0));
+      margin: 0;
+      padding: 0;
+      height: 30px;
+      text-align: center;
+    }
+  </style>
+  <!--Создание стиля заголовка внутри HTML-->
+</head>
+
+<body>
+  <h2 class="header">Мой сайт - Страница 3</h2>
+  <br>
+  <div class="nav">
+    <link rel="stylesheet" href="style/nav.css" />
+    <!--Подключение стиля из файла-->
+    Навигация:
+    <a href="index.html">Главная страница</a>
+    <a href="page_1.html">Страница 1</a>
+    <a href="page_2.html">Страница 2</a>
+    Страница 3
+  </div>
+  <hr />
+  <a href="https://youtu.be/SpCUuyZZTp8?t=4893">Видео</a>
+  <h4 class="h3">Стилизация формы</h4>
+
+  <div class="block31">
+    <form action="/">
+      <div class="row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите ваше имя...">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email...">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="text">Вашe сообщение:</label>
+
+        <textarea id="text" rows="2" cols="15"></textarea>
+      </div>
+
+      <input class="btn" type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <div style="margin-bottom: 270px"></div>
+  <p style="text-align: center; font: bold 14px Source Code Pro;">2023 год</p>
+</body>
+
+</html>

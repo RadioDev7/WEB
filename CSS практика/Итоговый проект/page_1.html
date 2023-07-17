@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="image/css-xxl.png" type="image/x-icon" />
+  <title>Практика CSS</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <!--Подключение основного стиля страницы-->
+  <style>
+    .header {
+      color: rgb(0, 0, 0);
+      font-style: initial;
+      font-family: Arial;
+      background-image: linear-gradient(to left,
+          rgb(255, 106, 0),
+          rgb(255, 170, 0));
+      margin: 0;
+      padding: 0;
+      height: 30px;
+      text-align: center;
+    }
+  </style>
+  <!--Создание стиля заголовка внутри HTML-->
+</head>
+
+<body>
+  <h2 class="header">Мой сайт - Страница 1</h2>
+  <br />
+  <div class="nav">
+    <link rel="stylesheet" href="style/nav.css" />
+    <!--Подключение стиля из файла-->
+    Навигация:
+    <a href="index.html">Главная страница</a>
+    Страница 1
+    <a href="page_2.html">Страница 2</a>
+    <a href="page_3.html">Страница 3</a>
+  </div>
+  <hr />
+
+  <h3 class="h3">Практика с изображением и таблицей</h3>
+  <div class="block11">
+    <table cellspacing="15">
+      <tr>
+        <td>
+          <img class="img_block" src="image/image_test.png" alt="gorod" />
+        </td>
+        <td>
+          <p>Это круг. Текст написан в таблице</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="block12">
+    <img src="image/image_test.png" alt="gorod" />
+    <p>Это круг. Текст написан в div</p>
+  </div>
+  <hr />
+  <hr />
+  <h3 class="h3">Работа с блоками</h3>
+
+  <div class="block13">
+    <p>С box-sizing: border-box</p>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <hr />
+  <hr />
+
+  <div class="block14">
+    <p>С box-sizing: border-box</p>
+    <div>
+      <p>Привет</p>
+    </div>
+    <div>
+      <p>как</p>
+    </div>
+    <div>
+      <p>твои</p>
+    </div>
+    <div>
+      <p>дела?</p>
+    </div>
+  </div>
+
+  <hr />
+  <hr />
+  <hr />
+
+  <h3 class="h3">Работа с ссылками</h3>
+  <div class="block15">
+    <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=3192s">lorem</a>
+    <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=3192s">lorem2</a>
+    <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">lorem3</a>
+  </div>
+
+  <div style="margin-bottom: 200px"></div>
+  <p style="text-align: center; font: bold 14px Source Code Pro">2023 год</p>
+</body>
+
+</html>
